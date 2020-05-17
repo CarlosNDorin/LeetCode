@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DD31DA6E-51FC-4E41-91C3-C2D44A81AF08}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Algorithms</RootNamespace>
+    <AssemblyName>Algorithms</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="100.SameTree.cs" />
+    <Compile Include="101.SymmetricTree.cs" />
+    <Compile Include="104.MaximumDepthofBinaryTree.cs" />
+    <Compile Include="107.BinaryTreeLevelOrderTraversalII.cs" />
+    <Compile Include="108.ConvertSortedArraytoBinarySearchTree.cs" />
+    <Compile Include="110.BalancedBinaryTree.cs" />
+    <Compile Include="111.MinimumDepthofBinaryTree.cs" />
+    <Compile Include="112.PathSum.cs" />
+    <Compile Include="118.PascalsTriangle.cs" />
+    <Compile Include="119.PascalsTriangleII.cs" />
+    <Compile Include="121.BestTimetoBuyandSelltock.cs" />
+    <Compile Include="122.BestTimetoBuyandSellStockII.cs" />
+    <Compile Include="125.ValidPalindrome.cs" />
+    <Compile Include="136.SingleNumber.cs" />
+    <Compile Include="141.LinkedListCycle.cs" />
+    <Compile Include="167.TwoSumII-Input arrayissorted.cs" />
+    <Compile Include="168.ExcelSheetColumnTitle.cs" />
+    <Compile Include="169.MajorityElement.cs" />
+    <Compile Include="171.ExcelSheetColumnNumber.cs" />
+    <Compile Include="189.RotateArray.cs" />
+    <Compile Include="190.ReverseBits.cs" />
+    <Compile Include="191.Numberof1Bits.cs" />
+    <Compile Include="198.HouseRobber.cs" />
+    <Compile Include="202.HappyNumber.cs" />
+    <Compile Include="203.RemoveLinkedListElements.cs" />
+    <Compile Include="204.CountPrimes.cs" />
+    <Compile Include="205.IsomorphicStrings.cs" />
+    <Compile Include="206.ReverseLinkedList.cs" />
+    <Compile Include="217.ContainsDuplicate.cs" />
+    <Compile Include="219.ContainsDuplicateII.cs" />
+    <Compile Include="225.ImplementStackusingQueues.cs" />
+    <Compile Include="234.PalindromeLinkedList.cs" />
+    <Compile Include="257.BinaryTreePaths.cs" />
+    <Compile Include="258.AddDigits.cs" />
+    <Compile Include="268.MissingNumber.cs" />
+    <Compile Include="278.FirstBadVersion.cs" />
+    <Compile Include="283.MoveZeroes.cs" />
+    <Compile Include="290.WordPattern.cs" />
+    <Compile Include="292.NimGame.cs" />
+    <Compile Include="299.BullsandCows.cs" />
+    <Compile Include="303.RangeSumQuery-Immutable.cs" />
+    <Compile Include="326.PowerofThree.cs" />
+    <Compile Include="344.ReverseString.cs" />
+    <Compile Include="39.CombinationSum.cs" />
+    <Compile Include="3Sum.cs" />
+    <Compile Include="40.CombinationSumII.cs" />
+    <Compile Include="41.FirstMissingPositive.cs" />
+    <Compile Include="42.TrappingRainWater.cs" />
+    <Compile Include="43. MultiplyStrings.cs" />
+    <Compile Include="45.JumpGameII.cs" />
+    <Compile Include="46.Permutations.cs" />
+    <Compile Include="47.PermutationsII.cs" />
+    <Compile Include="48.RotateImage.cs" />
+    <Compile Include="49.GroupAnagrams.cs" />
+    <Compile Include="4Ssum.cs" />
+    <Compile Include="50.Pow.cs" />
+    <Compile Include="51.N-Queens.cs" />
+    <Compile Include="52.NQueensII.cs" />
+    <Compile Include="53. Maximum Subarray.cs" />
+    <Compile Include="54.SpiralMatrix.cs" />
+    <Compile Include="55.JumpGame.cs" />
+    <Compile Include="58.LengthofLastWord.cs" />
+    <Compile Include="66.PlusOne.cs" />
+    <Compile Include="67.AddBinary.cs" />
+    <Compile Include="69.Sqrtx.cs" />
+    <Compile Include="70.Climbing Stairs.cs" />
+    <Compile Include="83. Remove Duplicates from SortedList.cs" />
+    <Compile Include="88.MergeSortedArray.cs" />
+    <Compile Include="AddTwoNumbers.cs" />
+    <Compile Include="BubbleSort.cs" />
+    <Compile Include="ContainerWithMostWater.cs" />
+    <Compile Include="CountandSay.cs" />
+    <Compile Include="DivideTwoIntegers.cs" />
+    <Compile Include="FindFirstandLastPositionofElementinSortedArray.cs" />
+    <Compile Include="Generate Parentheses.cs" />
+    <Compile Include="ImplementstrStr.cs" />
+    <Compile Include="IntegertoRoman.cs" />
+    <Compile Include="160.IntersectionofTwoLinkedLists.cs" />
+    <Compile Include="LetterCombinationsofaPhoneNumber.cs" />
+    <Compile Include="LongesSubStringWithoutRepeatingCharacters.cs" />
+    <Compile Include="LongestCommonPrefix.cs" />
+    <Compile Include="LongestPalindromicSubstring.cs" />
+    <Compile Include="LongestValidParentheses.cs" />
+    <Compile Include="medianOfTwoSortedArrays.cs" />
+    <Compile Include="MergeTwoSortedLists.cs" />
+    <Compile Include="Merge_k_Sorted_Lists.cs" />
+    <Compile Include="MinStack.cs" />
+    <Compile Include="NextPermutation.cs" />
+    <Compile Include="PalindromeNumber.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegularExpressionMatching.cs" />
+    <Compile Include="Remove_Duplicates_from_Sorted_Array.cs" />
+    <Compile Include="Remove_Element.cs" />
+    <Compile Include="Remove_Nth_Node_From_End_of_List.cs" />
+    <Compile Include="ReverseInteger.cs" />
+    <Compile Include="ReverseNodesink-Group.cs" />
+    <Compile Include="RomanToInteger.cs" />
+    <Compile Include="SearchInsertPosition.cs" />
+    <Compile Include="Search_in_Rotated_Sorted_Array.cs" />
+    <Compile Include="StringtoIntegerAtoi.cs" />
+    <Compile Include="SubstringwithConcatenationofAllWords.cs" />
+    <Compile Include="SudokuSolver.cs" />
+    <Compile Include="SwapNodesinPairs.cs" />
+    <Compile Include="threeSumClose.cs" />
+    <Compile Include="TwoSum.cs" />
+    <Compile Include="ValidSudoku.cs" />
+    <Compile Include="Valid_Parentheses.cs" />
+    <Compile Include="ZigZagConversion.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="44.WildcardMatching.cs" />
+    <Compile Include="242.ValidAnagram.cs" />
+    <Compile Include="263.Ugly Number.cs" />
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
