@@ -11,7 +11,7 @@ namespace Algorithms
         public bool CanJump(int[] nums)
         {
             if (nums.Contains(0) && nums[nums.Length] == 0)
-                return true;//test
+                return true;
             if (nums.Contains(0))
                 return false;
 
