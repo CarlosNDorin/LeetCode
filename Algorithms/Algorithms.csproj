@@ -107,6 +107,7 @@
     <Compile Include="53. Maximum Subarray.cs" />
     <Compile Include="54.SpiralMatrix.cs" />
     <Compile Include="55.JumpGame.cs" />
+    <Compile Include="56.MergeIntervals.cs" />
     <Compile Include="58.LengthofLastWord.cs" />
     <Compile Include="66.PlusOne.cs" />
     <Compile Include="67.AddBinary.cs" />

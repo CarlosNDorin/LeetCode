@@ -455,6 +455,11 @@ namespace Algorithms
                         Console.WriteLine(new JumpGame().CanJump(new int[] {2, 3, 1, 1, 4}));
                         break;
 
+                    case 56:
+                        Console.WriteLine("56. Merge Intervals");
+                        Console.WriteLine(new MergeIntervals().Merge(new int[][] { new int[]{1,3}, new int[]{2,6}, new int[] { 8, 10 }, new int[] { 15, 18 } }));
+                        break;
+
                     case 58:
                         Console.WriteLine("58. LengthOfLastWord");
                         Console.WriteLine(new LengthofLastWord().LengthOfLastWord("a "));
