@@ -627,6 +627,10 @@ namespace Algorithms
                         Console.WriteLine(implementStackusingQueues.Top());
                         break;
 
+                    case 232:
+                        Console.WriteLine("232. Implement Queue Using Stacks");
+                        break;
+
                     case 234:
                         Console.WriteLine("234. Palindrome Linked List");
                         PalindromeLinkedList palindromeLinkedList = new PalindromeLinkedList();
@@ -682,7 +686,10 @@ namespace Algorithms
                         Console.WriteLine("344. Reverse String");
                         new ReverseString().reverseString(new char[] {'H', 'a', 'n', 'n', 'a', 'h' });
                         break;
-
+                    case 345:
+                        Console.WriteLine("345. Reverse Vowels of a String");
+                        Console.WriteLine(new ReverseVowelsofaString().ReverseVowels("LeetCode"));
+                        break;
 
                     default: break;   
                 }

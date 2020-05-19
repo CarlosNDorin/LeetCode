@@ -77,6 +77,7 @@
     <Compile Include="217.ContainsDuplicate.cs" />
     <Compile Include="219.ContainsDuplicateII.cs" />
     <Compile Include="225.ImplementStackusingQueues.cs" />
+    <Compile Include="232.ImplementQueueusingStacks.cs" />
     <Compile Include="234.PalindromeLinkedList.cs" />
     <Compile Include="257.BinaryTreePaths.cs" />
     <Compile Include="258.AddDigits.cs" />
@@ -89,6 +90,8 @@
     <Compile Include="303.RangeSumQuery-Immutable.cs" />
     <Compile Include="326.PowerofThree.cs" />
     <Compile Include="344.ReverseString.cs" />
+    <Compile Include="345.ReverseVowelsofaString.cs" />
+    <Compile Include="349.IntersectionofTwoArrays.cs" />
     <Compile Include="39.CombinationSum.cs" />
     <Compile Include="3Sum.cs" />
     <Compile Include="40.CombinationSumII.cs" />
