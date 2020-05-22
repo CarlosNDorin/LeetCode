@@ -92,6 +92,12 @@
     <Compile Include="344.ReverseString.cs" />
     <Compile Include="345.ReverseVowelsofaString.cs" />
     <Compile Include="349.IntersectionofTwoArrays.cs" />
+    <Compile Include="350.IntersectionofTwoArraysII.cs" />
+    <Compile Include="367.ValidPerfectSquare.cs" />
+    <Compile Include="371.SumofTwoIntegers.cs" />
+    <Compile Include="374.GuessNumberHigherorLower.cs" />
+    <Compile Include="383.Ransom Note.cs" />
+    <Compile Include="387.FirstUniqueCharacterinaString.cs" />
     <Compile Include="39.CombinationSum.cs" />
     <Compile Include="3Sum.cs" />
     <Compile Include="40.CombinationSumII.cs" />

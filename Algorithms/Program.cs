@@ -686,10 +686,36 @@ namespace Algorithms
                         Console.WriteLine("344. Reverse String");
                         new ReverseString().reverseString(new char[] {'H', 'a', 'n', 'n', 'a', 'h' });
                         break;
+                    case 349:
+                        Console.WriteLine("349. Intersection Of Two Arrays");
+                        new IntersectionofTwoArrays().Intersection(new int[] { 1, 2, 3 }, new int[] { 2, 3, 4 });
+                        break;
+                    case 350:
+                        Console.WriteLine("350. Intersection Of Two Arrays II");
+                        new IntersectionOfTwoArraysII().Intersect(new int[] { 1, 2,2, 3 }, new int[] { 2,2, 3, 4 });
+                        break;
                     case 345:
                         Console.WriteLine("345. Reverse Vowels of a String");
                         Console.WriteLine(new ReverseVowelsofaString().ReverseVowels("LeetCode"));
                         break;
+                    case 367:
+                        Console.WriteLine("367. Valud Perfect Square");
+                        Console.WriteLine(new ValidPerfectSquare().IsPerfectSquare(14));
+                        break;
+                    case 371:
+                        Console.WriteLine("371. SumOfTwoIntegers");
+                        Console.WriteLine(new SumofTwoIntegers().GetSum(-1,5));
+                        break;
+                    case 374:
+                        Console.WriteLine("374. Guess Number High Or Lower");
+                        Console.WriteLine(new GuessNumberHighOrLower(2).GuessNumber(2));
+                        break;
+                    case 387:
+                        Console.WriteLine("387. First Unique Character in a String");
+                        Console.WriteLine(new FirstUniqueCharacterinaString().FirstUniqChar("cc"));
+                        break;
+
+
 
                     default: break;   
                 }
