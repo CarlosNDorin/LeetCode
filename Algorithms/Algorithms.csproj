@@ -98,9 +98,12 @@
     <Compile Include="374.GuessNumberHigherorLower.cs" />
     <Compile Include="383.Ransom Note.cs" />
     <Compile Include="387.FirstUniqueCharacterinaString.cs" />
+    <Compile Include="389.FindtheDifference.cs" />
     <Compile Include="39.CombinationSum.cs" />
+    <Compile Include="392.IsSubsequence.cs" />
     <Compile Include="3Sum.cs" />
     <Compile Include="40.CombinationSumII.cs" />
+    <Compile Include="401.BinaryWatch.cs" />
     <Compile Include="41.FirstMissingPositive.cs" />
     <Compile Include="42.TrappingRainWater.cs" />
     <Compile Include="43. MultiplyStrings.cs" />

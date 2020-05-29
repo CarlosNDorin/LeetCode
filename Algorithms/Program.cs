@@ -714,6 +714,18 @@ namespace Algorithms
                         Console.WriteLine("387. First Unique Character in a String");
                         Console.WriteLine(new FirstUniqueCharacterinaString().FirstUniqChar("cc"));
                         break;
+                    case 389:
+                        Console.WriteLine("389. First Unique Character in a String");
+                        Console.WriteLine(new FindtheDifference().FindTheDifference("abc","abcd"));
+                        break;
+                    case 392:
+                        Console.WriteLine("392. IsSubsequence");
+                        Console.WriteLine(new IsSubsequence().IsASubsequence("Ahbgdc","abc"));
+                        break;
+                    case 401:
+                        Console.WriteLine("401. BinaryWatch");
+                        Console.WriteLine(new BinaryWatch().ReadBinaryWatch(1));
+                        break;
 
 
 
