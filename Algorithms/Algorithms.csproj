@@ -104,6 +104,9 @@
     <Compile Include="3Sum.cs" />
     <Compile Include="40.CombinationSumII.cs" />
     <Compile Include="401.BinaryWatch.cs" />
+    <Compile Include="404.SumofLeftLeaves.cs" />
+    <Compile Include="405.ConvertaNumbertoHexadecimal.cs" />
+    <Compile Include="409.LongestPalindrome.cs" />
     <Compile Include="41.FirstMissingPositive.cs" />
     <Compile Include="42.TrappingRainWater.cs" />
     <Compile Include="43. MultiplyStrings.cs" />

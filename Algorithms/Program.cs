@@ -726,8 +726,17 @@ namespace Algorithms
                         Console.WriteLine("401. BinaryWatch");
                         Console.WriteLine(new BinaryWatch().ReadBinaryWatch(1));
                         break;
-
-
+                    case 404:
+                        Console.WriteLine("404. SumOfLeftLeaves");
+                        break;
+                    case 405:
+                        Console.WriteLine("405. Convert a Number to Hexadecimal");
+                        Console.WriteLine(new ConvertaNumbertoHexadecimal().ToHex(111111));
+                        break;
+                    case 409:
+                        Console.WriteLine("409. Longestpalindrome");
+                        Console.WriteLine(new LongestPalindrome().Longestpalindrome("civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth"));
+                        break;
 
                     default: break;   
                 }
