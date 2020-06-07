@@ -737,6 +737,19 @@ namespace Algorithms
                         Console.WriteLine("409. Longestpalindrome");
                         Console.WriteLine(new LongestPalindrome().Longestpalindrome("civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth"));
                         break;
+                    case 412:
+                        Console.WriteLine("412. FizzBuzz");
+                        Console.WriteLine(new FizzBuzz().Fizzbuzz(15)); 
+                        break;
+                    case 414:
+                        Console.WriteLine("414. Third Maximum Number");
+                        Console.WriteLine(new ThirdMaximumNumber().ThirdMax(new int[] {1,2 }));
+                        break;
+                    case 415:
+                        Console.WriteLine("415. Add String");
+                        Console.WriteLine(new AddStrings().Addstrings("9","99"));
+                        break;
+
 
                     default: break;   
                 }
