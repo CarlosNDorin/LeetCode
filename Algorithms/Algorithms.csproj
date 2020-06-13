@@ -170,6 +170,7 @@
     <Compile Include="SubstringwithConcatenationofAllWords.cs" />
     <Compile Include="SudokuSolver.cs" />
     <Compile Include="SwapNodesinPairs.cs" />
+    <Compile Include="testing.cs" />
     <Compile Include="threeSumClose.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="ValidSudoku.cs" />

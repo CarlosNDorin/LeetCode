@@ -749,7 +749,18 @@ namespace Algorithms
                         Console.WriteLine("415. Add String");
                         Console.WriteLine(new AddStrings().Addstrings("9","99"));
                         break;
+                    case 416:
+                        Console.WriteLine("416. Partition Equal Subset Sum");
+                        Console.WriteLine(new PartitionEqualSubsetSum().CanPartition(new int[] { 1,5,11,5}));
+                        break;
 
+
+
+
+                    case 5555:
+                        testing testing = new testing();
+                        testing.test();
+                        break;
 
                     default: break;   
                 }

@@ -10,22 +10,34 @@ namespace Algorithms
     {
         public bool CanPartition(int[] nums)
         {
-            int sum = 0;
-            foreach(int i in nums)
+            var n = nums.Length;
+            var sum = nums.Sum();
+
+            if (sum % 2 != 0) return false;
+
+            var target = sum / 2;
+
+            if (nums.Contains(target)) return true;
+
+            var dp = new bool[n + 1, target + 1];
+
+            for (int i = 0; i <= n; i++)
             {
-                sum += i;
+                dp[i, 0] = true;
             }
-            int target = sum / 2;
-            return PartitionSum(nums, 0, target);
-        }
 
-        public bool PartitionSum(int[] nums, int index, int target)
-        {
-            if (target == 0)
-                return true;
-
-
-
+            for (int i = 1; i <= n; i++)
+            {
+                for (int j = 0; j <= target; j++)
+                {
+                    dp[i, j] = dp[i - 1, j];
+                    if (j >= nums[i - 1])
+                    {
+                        dp[i, j] |= dp[i - 1, j - nums[i - 1]];
+                    }
+                }
+            }
+            return dp[n, target];
         }
     }
 }
