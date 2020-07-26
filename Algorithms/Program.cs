@@ -452,12 +452,12 @@ namespace Algorithms
 
                     case 55:
                         Console.WriteLine("55. JumpGame");
-                        Console.WriteLine(new JumpGame().CanJump(new int[] {2, 3, 1, 1, 4}));
+                        Console.WriteLine(new JumpGame().CanJump(new int[] { 2, 3, 1, 1, 4 }));
                         break;
 
                     case 56:
                         Console.WriteLine("56. Merge Intervals");
-                        Console.WriteLine(new MergeIntervals().Merge(new int[][] { new int[]{1,3}, new int[]{2,6}, new int[] { 8, 10 }, new int[] { 15, 18 } }));
+                        Console.WriteLine(new MergeIntervals().Merge(new int[][] { new int[] { 1, 3 }, new int[] { 2, 6 }, new int[] { 8, 10 }, new int[] { 15, 18 } }));
                         break;
 
                     case 58:
@@ -654,7 +654,7 @@ namespace Algorithms
 
                     case 268:
                         Console.WriteLine("268. MissingNumber");
-                        Console.WriteLine(new MissingNumber().Missingnumber(new int[] { 3,0,1}));
+                        Console.WriteLine(new MissingNumber().Missingnumber(new int[] { 3, 0, 1 }));
                         break;
 
                     case 283:
@@ -671,11 +671,11 @@ namespace Algorithms
                         break;
                     case 299:
                         Console.WriteLine("299. BullsandCows");
-                        Console.WriteLine(new BullsandCows().GetHint("1123","0111"));
+                        Console.WriteLine(new BullsandCows().GetHint("1123", "0111"));
                         break;
                     case 303:
                         Console.WriteLine("303. Range Sum Query - Immutable");
-                        NumArray numArray = new NumArray(new int[] { -2,0,3,-5,2,-1});
+                        NumArray numArray = new NumArray(new int[] { -2, 0, 3, -5, 2, -1 });
                         Console.WriteLine(numArray.SumRange(2, 5));
                         break;
                     case 326:
@@ -684,7 +684,7 @@ namespace Algorithms
                         break;
                     case 344:
                         Console.WriteLine("344. Reverse String");
-                        new ReverseString().reverseString(new char[] {'H', 'a', 'n', 'n', 'a', 'h' });
+                        new ReverseString().reverseString(new char[] { 'H', 'a', 'n', 'n', 'a', 'h' });
                         break;
                     case 349:
                         Console.WriteLine("349. Intersection Of Two Arrays");
@@ -692,7 +692,7 @@ namespace Algorithms
                         break;
                     case 350:
                         Console.WriteLine("350. Intersection Of Two Arrays II");
-                        new IntersectionOfTwoArraysII().Intersect(new int[] { 1, 2,2, 3 }, new int[] { 2,2, 3, 4 });
+                        new IntersectionOfTwoArraysII().Intersect(new int[] { 1, 2, 2, 3 }, new int[] { 2, 2, 3, 4 });
                         break;
                     case 345:
                         Console.WriteLine("345. Reverse Vowels of a String");
@@ -704,7 +704,7 @@ namespace Algorithms
                         break;
                     case 371:
                         Console.WriteLine("371. SumOfTwoIntegers");
-                        Console.WriteLine(new SumofTwoIntegers().GetSum(-1,5));
+                        Console.WriteLine(new SumofTwoIntegers().GetSum(-1, 5));
                         break;
                     case 374:
                         Console.WriteLine("374. Guess Number High Or Lower");
@@ -716,11 +716,11 @@ namespace Algorithms
                         break;
                     case 389:
                         Console.WriteLine("389. First Unique Character in a String");
-                        Console.WriteLine(new FindtheDifference().FindTheDifference("abc","abcd"));
+                        Console.WriteLine(new FindtheDifference().FindTheDifference("abc", "abcd"));
                         break;
                     case 392:
                         Console.WriteLine("392. IsSubsequence");
-                        Console.WriteLine(new IsSubsequence().IsASubsequence("Ahbgdc","abc"));
+                        Console.WriteLine(new IsSubsequence().IsASubsequence("Ahbgdc", "abc"));
                         break;
                     case 401:
                         Console.WriteLine("401. BinaryWatch");
@@ -739,22 +739,35 @@ namespace Algorithms
                         break;
                     case 412:
                         Console.WriteLine("412. FizzBuzz");
-                        Console.WriteLine(new FizzBuzz().Fizzbuzz(15)); 
+                        Console.WriteLine(new FizzBuzz().Fizzbuzz(15));
                         break;
                     case 414:
                         Console.WriteLine("414. Third Maximum Number");
-                        Console.WriteLine(new ThirdMaximumNumber().ThirdMax(new int[] {1,2 }));
+                        Console.WriteLine(new ThirdMaximumNumber().ThirdMax(new int[] { 1, 2 }));
                         break;
                     case 415:
                         Console.WriteLine("415. Add String");
-                        Console.WriteLine(new AddStrings().Addstrings("9","99"));
+                        Console.WriteLine(new AddStrings().Addstrings("9", "99"));
                         break;
                     case 416:
                         Console.WriteLine("416. Partition Equal Subset Sum");
-                        Console.WriteLine(new PartitionEqualSubsetSum().CanPartition(new int[] { 1,5,11,5}));
+                        Console.WriteLine(new PartitionEqualSubsetSum().CanPartition(new int[] { 1, 5, 11, 5 }));
                         break;
 
+                    case 417:
+                        Console.WriteLine("417. Pacific Atlantic Water Flow");
+                         Console.WriteLine(new PacificAtlanticWaterFlow().PacificAtlantic(new int[,] { { 1, 2, 2, 3, 5 },{ 3, 2, 3, 4, 4 },{ 2, 4, 5, 3, 1 },{ 6, 7, 1, 4, 5 },{ 5, 1, 1, 2, 4 } }));
+                        break;
 
+                    case 419:
+                        Console.WriteLine("419. Battleships in a Board");
+                        var matrix = new char[3][];
+                        matrix[0] = new char[] { 'X', '.', '.', 'X' };
+                        matrix[1] = new char[] { '.', '.', '.', 'X' };
+                        matrix[2] = new char[] { '.', '.', '.', 'X' };
+                        //matrix[3] = new char[] { '.', '.', '.', 'X' };
+                        Console.WriteLine(new BattleshipsinaBoard().CountBattleships(matrix));
+                        break;
 
 
                     case 5555:

@@ -112,6 +112,8 @@
     <Compile Include="414.ThirdMaximumNumber.cs" />
     <Compile Include="415.AddStrings.cs" />
     <Compile Include="416.PartitionEqualSubsetSum.cs" />
+    <Compile Include="417.PacificAtlanticWaterFlow.cs" />
+    <Compile Include="419.BattleshipsInABoard.cs" />
     <Compile Include="42.TrappingRainWater.cs" />
     <Compile Include="43. MultiplyStrings.cs" />
     <Compile Include="45.JumpGameII.cs" />
