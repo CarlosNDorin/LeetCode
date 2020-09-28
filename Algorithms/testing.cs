@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,6 +34,28 @@ namespace Algorithms
         public override string ToString()
         {
             return " var 1: "+ variable1 + " var 2: " + variable2; 
+        }
+    }
+
+    public class runBatch
+    {
+        public void run()
+        {
+            Process proc = null;
+            try
+            {
+                string batDir = string.Format(@"C:\Users\USER\Desktop");
+                proc = new Process();
+                proc.StartInfo.WorkingDirectory = batDir;
+                proc.StartInfo.FileName = "batch.bat";
+                proc.StartInfo.CreateNoWindow = false;
+                proc.Start();
+                proc.WaitForExit();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.StackTrace.ToString());
+            }
         }
     }
 }

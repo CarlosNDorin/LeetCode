@@ -459,12 +459,22 @@ namespace Algorithms
                         Console.WriteLine("56. Merge Intervals");
                         Console.WriteLine(new MergeIntervals().Merge(new int[][] { new int[] { 1, 3 }, new int[] { 2, 6 }, new int[] { 8, 10 }, new int[] { 15, 18 } }));
                         break;
-
+                    case 57:
+                        Console.WriteLine("57. Insert Interval");
+                        Console.WriteLine(new InsertInterval().Insert(new int[][] { new int[] { 1, 3 }, new int[] { 2, 6 }, new int[] { 8, 10 }, new int[] { 15, 18 } },new int[] {2,3}));
+                        break;
                     case 58:
                         Console.WriteLine("58. LengthOfLastWord");
                         Console.WriteLine(new LengthofLastWord().LengthOfLastWord("a "));
                         break;
-
+                    case 59:
+                        Console.WriteLine("59. Spiral MatrixII");
+                        Console.WriteLine(new SpiralMatrixII().GenerateMatrix(3));
+                        break;
+                    case 60:
+                        Console.WriteLine("60. Permutation Sequence");
+                        Console.WriteLine(new PermutationSequence().GetPermutation(3,3));
+                        break;
                     case 66:
                         Console.WriteLine("66. Plus One");
                         Console.WriteLine(new PlusOne().plusOne(new int[] { 9 }));
@@ -769,10 +779,17 @@ namespace Algorithms
                         Console.WriteLine(new BattleshipsinaBoard().CountBattleships(matrix));
                         break;
 
+                    case 421:
+                        Console.WriteLine("421. Maximum XOR of Two Numbers in an Array");
+                        Console.WriteLine(new MaximumXOROfTwoNumbersInAnArray().FindMaximumXOR(new int[] { 3,10,5,25,2,8}));
+                        break;
 
                     case 5555:
                         testing testing = new testing();
-                        testing.test();
+                        // testing.test();
+                        runBatch runBatch = new runBatch();
+                        runBatch.run();
+                           
                         break;
 
                     default: break;   

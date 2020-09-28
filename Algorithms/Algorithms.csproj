@@ -129,7 +129,10 @@
     <Compile Include="54.SpiralMatrix.cs" />
     <Compile Include="55.JumpGame.cs" />
     <Compile Include="56.MergeIntervals.cs" />
+    <Compile Include="57.Insert Interval.cs" />
     <Compile Include="58.LengthofLastWord.cs" />
+    <Compile Include="59.SpiralMatrixII.cs" />
+    <Compile Include="60.PermutationSequence.cs" />
     <Compile Include="66.PlusOne.cs" />
     <Compile Include="67.AddBinary.cs" />
     <Compile Include="69.Sqrtx.cs" />
@@ -183,6 +186,7 @@
     <Compile Include="44.WildcardMatching.cs" />
     <Compile Include="242.ValidAnagram.cs" />
     <Compile Include="263.Ugly Number.cs" />
+    <Compile Include="421.MaximumXORofTwoNumbersinanArray.cs" />
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
