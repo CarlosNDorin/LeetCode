@@ -133,6 +133,9 @@
     <Compile Include="58.LengthofLastWord.cs" />
     <Compile Include="59.SpiralMatrixII.cs" />
     <Compile Include="60.PermutationSequence.cs" />
+    <Compile Include="61.Rotate List.cs" />
+    <Compile Include="62.UniquePaths.cs" />
+    <Compile Include="63.UniquePathsII.cs" />
     <Compile Include="66.PlusOne.cs" />
     <Compile Include="67.AddBinary.cs" />
     <Compile Include="69.Sqrtx.cs" />

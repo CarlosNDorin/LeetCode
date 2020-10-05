@@ -461,7 +461,7 @@ namespace Algorithms
                         break;
                     case 57:
                         Console.WriteLine("57. Insert Interval");
-                        Console.WriteLine(new InsertInterval().Insert(new int[][] { new int[] { 1, 3 }, new int[] { 2, 6 }, new int[] { 8, 10 }, new int[] { 15, 18 } },new int[] {2,3}));
+                        Console.WriteLine(new InsertInterval().Insert(new int[][] { new int[] { 1, 3 }, new int[] { 2, 6 }, new int[] { 8, 10 }, new int[] { 15, 18 } }, new int[] { 2, 3 }));
                         break;
                     case 58:
                         Console.WriteLine("58. LengthOfLastWord");
@@ -473,7 +473,19 @@ namespace Algorithms
                         break;
                     case 60:
                         Console.WriteLine("60. Permutation Sequence");
-                        Console.WriteLine(new PermutationSequence().GetPermutation(3,3));
+                        Console.WriteLine(new PermutationSequence().GetPermutation(3, 3));
+                        break;
+                    case 61:
+                        Console.WriteLine("61. Rotate List");
+                        Console.WriteLine(new RotateList().RotateRight(new RotateList().createList(4), 10));
+                        break;
+                    case 62:
+                        Console.WriteLine("62. Unique Paths");
+                        Console.WriteLine(new UniquePaths().Unique_Paths(3, 7));
+                        break;
+                    case 63:
+                        Console.WriteLine("63. Unique PathsII");
+                        Console.WriteLine(new UniquePathsII().UniquePathsWithObstacles(new int[][] { new int[] { 0, 0 },new int[] { 1, 1 },new int[] { 0, 0 } })); 
                         break;
                     case 66:
                         Console.WriteLine("66. Plus One");
