@@ -487,6 +487,10 @@ namespace Algorithms
                         Console.WriteLine("63. Unique PathsII");
                         Console.WriteLine(new UniquePathsII().UniquePathsWithObstacles(new int[][] { new int[] { 0, 0 },new int[] { 1, 1 },new int[] { 0, 0 } })); 
                         break;
+                    case 64:
+                        Console.WriteLine("64. Minimum Path Sum");
+                        Console.WriteLine(new MinimumPathSum().MinPathSum(new int[][] { new int[] { 9, 1, 4, 8 } }));
+                        break;
                     case 66:
                         Console.WriteLine("66. Plus One");
                         Console.WriteLine(new PlusOne().plusOne(new int[] { 9 }));
@@ -504,6 +508,10 @@ namespace Algorithms
                     case 70:
                         Console.WriteLine("70. ClimbStairs");
                         Console.WriteLine(new ClimbingStairs().climbStairs(6));
+                        break;
+                    case 73:
+                        Console.WriteLine("73. Set Matrix Zeroes");
+                        new SetZeroesMatrix().SetZeroes(new int[][] { new int[] { 0,1,2,0 }, new int[] { 3,4,5,2}, new int[] { 1,3,1,5} });
                         break;
                     case 83:
                         Console.WriteLine("83. Remove Duplicates from Sorted List");

@@ -136,10 +136,12 @@
     <Compile Include="61.Rotate List.cs" />
     <Compile Include="62.UniquePaths.cs" />
     <Compile Include="63.UniquePathsII.cs" />
+    <Compile Include="64.MinimumPathSum.cs" />
     <Compile Include="66.PlusOne.cs" />
     <Compile Include="67.AddBinary.cs" />
     <Compile Include="69.Sqrtx.cs" />
     <Compile Include="70.Climbing Stairs.cs" />
+    <Compile Include="73.SetMatrixZeroes.cs" />
     <Compile Include="83. Remove Duplicates from SortedList.cs" />
     <Compile Include="88.MergeSortedArray.cs" />
     <Compile Include="AddTwoNumbers.cs" />
